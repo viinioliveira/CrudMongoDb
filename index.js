@@ -13,7 +13,7 @@ const { MongoClient } = require("mongodb");
 
 // Connection URI
 const uri =
-    "mongodb+srv://Root:a1265b74@cluster0.yu5ux.mongodb.net/Clientes?retryWrites=true&w=majority";
+    "endereco do seu banco";
 // Create a new MongoClient
 const client = new MongoClient(uri);
 async function run() {
